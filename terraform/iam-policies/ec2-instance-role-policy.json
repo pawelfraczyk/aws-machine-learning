@@ -1,0 +1,14 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [{
+			"Effect": "Allow",
+			"Action": [
+				"kinesis:DescribeStream",
+				"kinesis:PutRecord",
+				"kinesis:PutRecords"
+			],
+			"Resource": [
+				"arn:aws:kinesis:eu-central-1:439352748066:stream/my-data-stream"
+			]
+		}]
+}
