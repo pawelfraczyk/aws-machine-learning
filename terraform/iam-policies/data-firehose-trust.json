@@ -2,10 +2,10 @@
     "Version": "2012-10-17",
     "Statement": [
       {
+        "Sid": "",
         "Effect": "Allow",
         "Principal": {
-          "Service": 
-            "kinesisanalytics.amazonaws.com"
+          "Service": "firehose.amazonaws.com"
         },
         "Action": "sts:AssumeRole"
       }
